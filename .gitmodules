@@ -1,0 +1,3 @@
+[submodule "src/vendor/std"]
+	path = src/vendor/std
+	url = https://github.com/veranovus/vstd.git
