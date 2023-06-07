@@ -2,7 +2,7 @@
 
 This is my C project template, which I use as the foundation for my every C project.
 
-> Version 0.3.0
+> Version 0.4.0
 
 ## Building the project
 

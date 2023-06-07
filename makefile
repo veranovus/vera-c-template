@@ -21,6 +21,7 @@ build: $(BINARY)
 
 init:
 	@mkdir target target/src
+	@rm README.md
 	@git remote remove origin
 
 $(BINARY): $(OBJECTS)
