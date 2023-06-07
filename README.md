@@ -1,8 +1,8 @@
 # Vera's C Template
 
-This is my C project template, which i use as the foundation for my every C project.
+This is my C project template, which I use as the foundation for my every C project.
 
-> Version 0.2.0
+> Version 0.2.1
 
 ## Building the project
 
