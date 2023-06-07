@@ -21,6 +21,7 @@ build: $(BINARY)
 
 init:
 	@mkdir target target/src
+	@git remote remove origin
 
 $(BINARY): $(OBJECTS)
 	$(CC) -o $@ $^

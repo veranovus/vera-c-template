@@ -2,11 +2,18 @@
 
 This is my C project template, which i use as the foundation for my every C project.
 
-> Version 0.1.0
+> Version 0.2.0
 
 ## Building the project
 
-Change the `PROJECT` variable to your projects name in the `makefile`, this will also be the name of the outputed binary executable. Then prepare the project structure by calling `make init`. You only need to do this once when you clone the repo.
+Start by clonning the repo recursivelly by calling this on your desired directory.
+
+```shell
+# Change the `project-name` to your desired project name.
+$ git clone --recurse-submodules https://github.com/veranovus/vera-c-template.git project-name
+```
+
+Change the `PROJECT` variable to your projects name in the `makefile`, this will also be the name of the outputed binary executable. Then prepare the project structure by calling `make init`, this will also remove the origin of the git repo from this repository. You should only do this once when you first clone the repo.
 
 ```shell
 $ make init
