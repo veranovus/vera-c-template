@@ -1,6 +1,6 @@
 # Vera's C Template
 
-This is my C project template, which I use as the foundation for my every C project.
+This is my C project template for people who wants to stick with just a simple makefile.
 
 > Version 0.4.0
 
